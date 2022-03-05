@@ -16,6 +16,7 @@ public class VytrackLogInTest extends TestBase {
 
         VytrackUtils.login(userName, password);
 
+        BrowserUtils.sleep(3);
     }
 
     @Test
