@@ -36,7 +36,7 @@ public class VytrackUtils {
             Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
             // pass username
             // Driver.getDriver().findElement(By.cssSelector("#prependedInput"));
-            Driver.getDriver().findElement(By.id("prependedInput")).sendKeys(ConfigurationReader.getProperty("storeManager1_userName"));
+            Driver.getDriver().findElement(By.id("prependedInput")).sendKeys(ConfigurationReader.getProperty("storeManager4_userName"));
             //pass password
             Driver.getDriver().findElement(By.cssSelector("#prependedInput2")).sendKeys(ConfigurationReader.getProperty("password"));
             //click login button
