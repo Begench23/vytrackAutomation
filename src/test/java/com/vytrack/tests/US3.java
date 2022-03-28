@@ -1,4 +1,4 @@
-package com.vytrack.tests.vytrackLogInTest;
+package com.vytrack.tests;
 
 import com.vytrack.utilities.Driver;
 import com.vytrack.utilities.VytrackUtils;
